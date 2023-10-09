@@ -29,7 +29,8 @@
             "flexDirection": "column",
             "justifyContent": "center",
             "alignItems": "center",
-            "display": "flex"
+            "display": "flex",
+            "backgroundColor": "rgba(172, 243, 255, 1)"
         },
         "ShowStatusBar": true,
         "StatusBarStyle": "default",
@@ -51,9 +52,70 @@
         "navigationOptions": {
             "headerStyle": {}
         },
-        "tabNavigationOptions": {}
+        "tabNavigationOptions": {},
+        "BackgroundColor": "rgba(172, 243, 255, 1)"
     },
     "children": [
+        {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-8480250351454333/6403221894",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": -1,
+                "ParentId": "6d39bb21-0dd2-45b0-8705-9401f650bc41",
+                "Y": 633.0750122070314,
+                "RelativeX": -1,
+                "RelativeY": 633,
+                "position": "absolute",
+                "edgeOffsets": 633.0750122070314,
+                "style": {
+                    "position": "absolute",
+                    "left": "35.65333658854167%",
+                    "top": "88.31709328441248%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "ec697c4b-a7e8-43f2-b119-fca1f9793ec6",
+            "thunkableVersion": 423,
+            "name": "AdMob_Banner2"
+        },
+        {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-8480250351454333/6403221894",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": -1,
+                "ParentId": "6d39bb21-0dd2-45b0-8705-9401f650bc41",
+                "Y": 600.075012207031,
+                "RelativeX": -1,
+                "RelativeY": 600,
+                "position": "absolute",
+                "edgeOffsets": 600.075012207031,
+                "style": {
+                    "position": "absolute",
+                    "left": "5.786669921875%",
+                    "top": "78.27211577316811%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "f82f64df-1feb-4041-909a-daaca1fc5a7c",
+            "thunkableVersion": 423,
+            "name": "AdMob_Banner1"
+        },
         {
             "type": "Image",
             "translatedName": "Image",
@@ -403,8 +465,8 @@
                     "translatedName": "Text Input",
                     "properties": {
                         "Hint": "Type here",
-                        "Height": 39,
-                        "Width": 214,
+                        "Height": 41,
+                        "Width": 209,
                         "Visible": true,
                         "X": 158,
                         "Y": 257,
@@ -538,13 +600,13 @@
             "translatedName": "Text Input",
             "properties": {
                 "Hint": "Type here",
-                "Height": 41,
-                "Width": 223,
+                "Height": 43,
+                "Width": 217,
                 "Visible": true,
-                "X": 149,
-                "Y": 202,
-                "RelativeX": 149,
-                "RelativeY": 202,
+                "X": 149.8000030517578,
+                "Y": 202.8000030517578,
+                "RelativeX": 149.8000030517578,
+                "RelativeY": 202.8000030517578,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -590,7 +652,7 @@
                 "underlineColorAndroid": "rgba(0, 0, 0, 0)",
                 "ParentId": "6d39bb21-0dd2-45b0-8705-9401f650bc41",
                 "position": "absolute",
-                "edgeOffsets": 202,
+                "edgeOffsets": 202.8000030517578,
                 "placeholder": "Type here"
             },
             "children": [],
@@ -668,8 +730,8 @@
             "translatedName": "Text Input",
             "properties": {
                 "Hint": "Type here",
-                "Height": 43,
-                "Width": 223,
+                "Height": 45,
+                "Width": 218,
                 "Visible": true,
                 "X": 149,
                 "Y": 143,
